@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(209, 244, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 7%;
+    border-color: rgb(59, 59, 59);
+}
