@@ -30,6 +30,7 @@ hr:hover {
   
 .mainImage:hover {
     transform: scale(1.1);
+    filter: drop-shadow(0 0 0.55rem #407c457d);
 }
 
 img {
