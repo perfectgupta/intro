@@ -11,7 +11,14 @@ hr {
     width: 3%;
     border-color: #407c4557;
     margin-top: 35px;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
+    /* padding-top: 40px; */
+    padding-bottom: 20px;
+}
+
+hr:hover {
+    width: 6%;
+    transition-duration: 0.3s;
 }
 
 /* .mainImage { 
@@ -20,6 +27,10 @@ hr {
     border-radius: 119px;
     width: 200px;
 } */
+  
+.mainImage:hover {
+    transform: scale(1.1);
+}
 
 img {
     text-align: center;
@@ -82,6 +93,10 @@ h3 {
     color: #407c45;
 }
 
+h3:hover {
+    transform: scale(1.1);
+}
+
 .skills {
     text-align: center; 
     font-size: 18px;
@@ -96,6 +111,10 @@ table {
     width: 36%;
     margin-left: 32%;
     color: #407c45;
+}
+
+td:hover {
+    transform: scale(1.1);
 }
 
 .technicalSkills {
