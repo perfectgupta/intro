@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(209, 244, 255);
+    margin-top: 45px;
+    background-color: rgba(221, 255, 216, 0.444);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -8,5 +9,199 @@ hr {
     border-top-style: dotted;
     border-width: 5px;
     width: 7%;
-    border-color: rgb(59, 59, 59);
+    border-color: #407c4557;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/* .mainImage { 
+    text-align: center;
+    border: solid 5px #61b268;
+    border-radius: 119px;
+    width: 200px;
+} */
+
+img {
+    text-align: center;
+    border: solid 5px #407c45;
+    border-radius: 119px;
+    width: 200px;
+    filter: drop-shadow(0 0 0.25rem #407c45);
+}
+
+.Intro {
+    text-align: center;   
+} 
+
+.mainTitle {
+    font-size: 65px;
+    color: #407c45;
+    text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+} 
+
+.mainDescription {
+    font-size: 18px;
+    /* font-weight: 400; */
+    line-height: 25px;
+    color: #407c45;
+    text-decoration: none;
+    /* font-family: 'Brandon Grotesque Light', sans-serif; */
+}
+
+.description {
+    font-size: 21px;
+    /* font-weight: 400; */
+    line-height: 25px;
+    color: #407c45;
+    text-decoration: none;
+    /* font-family: 'Brandon Grotesque Light', sans-serif; */
+}
+
+.Company {
+    font-size: 20px;
+    line-height: 35px;
+    color: #407c45;
+    text-decoration: none;
+    /* font-family: 'Brandon Grotesque Light', sans-serif; */
+}
+
+h2 {
+    text-align: center; 
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 25px;
+    color: #407c45;
+}
+
+h3 {
+    text-align: center; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #407c45;
+}
+
+.skills {
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #407c45;
+    text-decoration: none; 
+}
+
+table {
+    text-align: center;
+    width: 36%;
+    margin-left: 32%;
+    color: #407c45;
+}
+
+.technicalSkills {
+    width: 30%;
+    margin-left: 36%;
+
+}
+.productSkills {
+   width: 36%;
+    margin-left: 32%;
+}
+
+.star {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid #fc0;
+    border-left: 0.3em solid transparent;
+    /* Controlls the size of the stars. */
+    font-size: 10px;
+}
+
+.star:before, .star:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid #fc0;
+    border-left: 1em solid transparent;
+    transform: rotate(-35deg);
+}
+
+.star:after {
+    transform: rotate(35deg);
+}
+
+.footer {
+    text-align: center;
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	background: #407c45;
+	border: none;
+	border-radius: 30px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+	background: #407c45;
+    margin-left: 44.6%;
+}
+
+button,
+button span {
+	transition: 200ms;
+}
+
+button .text {
+	transform: translateX(25px);
+	color: white;
+	font-weight: bold;
+}
+
+button .icon {
+	position: absolute;
+    margin-left: -1px;
+	border-left: 1px solid #3b723f;
+	transform: translateX(110px);
+	height: 30px;
+    padding: 5px;
+	width: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button svg {
+	width: 15px;
+	fill: #eee;
+}
+
+button:hover {
+	background: #6fca77;
+}
+
+button:hover .text {
+	color: transparent;
+}
+
+button:hover .icon {
+	width: 150px;
+	border-left: none;
+	transform: translateX(0);
+}
+
+button:focus {
+	outline: none;
 }
