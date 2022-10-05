@@ -1,3 +1,20 @@
+.topBar{
+    border-top: 7px solid #358f7c;
+    width: 102%;
+    margin-top: -45px;
+    padding: 15px;
+    margin-left: -10px;
+}
+
+.topBar:hover {
+    border-top: 15px solid #358f7c;
+    width: 102%;
+    margin-top: -45px;
+    padding: 15px;
+    margin-left: -10px;
+    transition-duration: 0s;
+}
+
 body {
     margin-top: 45px;
     background-color: #e0ebe8;
@@ -61,6 +78,11 @@ img {
     /* font-family: 'Brandon Grotesque Light', sans-serif; */
 }
 
+.jobTitle:hover {
+    font-weight: 700;
+    text-transform: capitalize;;
+}
+
 .description {
     font-size: 21px;
     /* font-weight: 400; */
@@ -116,6 +138,7 @@ table {
 
 td:hover {
     transform: scale(1.1);
+    font-weight: 700;
 }
 
 .technicalSkills {
@@ -228,7 +251,7 @@ button:focus {
 }
 
 .Linefooter {
-    border-top: 20px solid #358f7c;
+    border-top: 7px solid #358f7c;
     width: 102%;
     margin-bottom: -8px;
     padding: 0px;
@@ -236,10 +259,10 @@ button:focus {
 }
 
 .Linefooter:hover {
-    border-top: 50px solid #358f7c;
-    width: 102%;
+    border-top: 15px solid #358f7c;
+    width: inherit;
     margin-bottom: -8px;
-    padding: 0px;
-    margin-left: -10px;
-    transition-duration: 0.3s;
+    padding: inherit;
+    margin-left: inherit;
+    transition-duration: 0s;
 }
