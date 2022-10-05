@@ -1,6 +1,6 @@
 body {
     margin-top: 45px;
-    background-color: rgba(221, 255, 216, 0.444);
+    background-color: #e0ebe8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -9,7 +9,7 @@ hr {
     border-top-style: dotted;
     border-width: 5px;
     width: 3%;
-    border-color: #407c4557;
+    border-color: #358f7c57;
     margin-top: 35px;
     /* margin-bottom: 35px; */
     /* padding-top: 40px; */
@@ -30,15 +30,15 @@ hr:hover {
   
 .mainImage:hover {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 0.55rem #407c457d);
+    filter: drop-shadow(0 0 0.55rem #358f7c7d);
 }
 
 img {
     text-align: center;
-    border: solid 5px #407c45;
+    border: solid 5px #358f7c;
     border-radius: 119px;
     width: 200px;
-    filter: drop-shadow(0 0 0.25rem #407c45);
+    filter: drop-shadow(0 0 0.25rem #358f7c);
 }
 
 .Intro {
@@ -47,7 +47,7 @@ img {
 
 .mainTitle {
     font-size: 65px;
-    color: #407c45;
+    color: #358f7c;
     text-decoration: none;
     font-family: 'Great Vibes', cursive;
 } 
@@ -56,7 +56,7 @@ img {
     font-size: 18px;
     /* font-weight: 400; */
     line-height: 25px;
-    color: #407c45;
+    color: #358f7c;
     text-decoration: none;
     /* font-family: 'Brandon Grotesque Light', sans-serif; */
 }
@@ -65,7 +65,7 @@ img {
     font-size: 21px;
     /* font-weight: 400; */
     line-height: 25px;
-    color: #407c45;
+    color: #358f7c;
     text-decoration: none;
     /* font-family: 'Brandon Grotesque Light', sans-serif; */
 }
@@ -73,7 +73,7 @@ img {
 .Company {
     font-size: 20px;
     line-height: 35px;
-    color: #407c45;
+    color: #358f7c;
     text-decoration: none;
     /* font-family: 'Brandon Grotesque Light', sans-serif; */
 }
@@ -83,7 +83,7 @@ h2 {
     font-weight: 400;
     font-size: 23px;
     line-height: 25px;
-    color: #407c45;
+    color: #358f7c;
 }
 
 h3 {
@@ -91,7 +91,7 @@ h3 {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color: #407c45;
+    color: #358f7c;
 }
 
 h3:hover {
@@ -103,7 +103,7 @@ h3:hover {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
-    color: #407c45;
+    color: #358f7c;
     text-decoration: none; 
 }
 
@@ -111,7 +111,7 @@ table {
     text-align: center;
     width: 36%;
     margin-left: 32%;
-    color: #407c45;
+    color: #358f7c;
 }
 
 td:hover {
@@ -171,11 +171,11 @@ button {
 	cursor: pointer;
 	display: flex;
 	align-items: center;
-	background: #407c45;
+	background: #358f7c;
 	border: none;
 	border-radius: 30px;
 	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
-	background: #407c45;
+	background: #358f7c;
     margin-left: 44.6%;
     margin-bottom: 30px;
 }
@@ -194,7 +194,7 @@ button .text {
 button .icon {
 	position: absolute;
     margin-left: -1px;
-	border-left: 1px solid #3b723f;
+	border-left: 1px solid #318270;
 	transform: translateX(110px);
 	height: 30px;
     padding: 5px;
@@ -210,7 +210,7 @@ button svg {
 }
 
 button:hover {
-	background: #6fca77;
+	background: #7dd5c2;
 }
 
 button:hover .text {
@@ -218,11 +218,28 @@ button:hover .text {
 }
 
 button:hover .icon {
-	width: 150px;
+	width: 130px;
 	border-left: none;
 	transform: translateX(0);
 }
 
 button:focus {
 	outline: none;
+}
+
+.Linefooter {
+    border-top: 20px solid #358f7c;
+    width: 102%;
+    margin-bottom: -8px;
+    padding: 0px;
+    margin-left: -10px;
+}
+
+.Linefooter:hover {
+    border-top: 50px solid #358f7c;
+    width: 102%;
+    margin-bottom: -8px;
+    padding: 0px;
+    margin-left: -10px;
+    transition-duration: 0.3s;
 }
